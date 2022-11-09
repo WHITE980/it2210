@@ -1,0 +1,663 @@
+    #wrap {
+        width: 100%;
+    }
+
+    /* 머리메뉴 */
+    #header {
+        width: 100%;
+        height: 790px;
+        overflow: hidden;
+        background: url(../images/메인_p_bn_SKY쿠폰2.jpg) no-repeat 50% 0;
+    }
+
+    /* 로고와 로그인 */
+    #header_h {
+        width: 100%;
+        height: 115px;
+    }
+
+    #header_h .logo {
+        float: left;
+        margin: 30px 0 0 315px;
+    }
+
+    #header_h .log_in {
+        float: right;
+        margin: 60px 310px 0 0;
+    }
+
+    #header_h .log_in li {
+        float: left;
+        margin-right: 20px;
+    }
+
+    #header_h .log_in li:last-child {
+        margin-right: 0;
+    }
+
+    /* 메뉴 */
+    #header_m {
+        width: 100%;
+        height: 100px;
+    }
+
+    #header_m .menu {
+        float: left;
+        margin: 0 0 0 315px;
+    }
+
+    #header_m .menu li {
+        float: left;
+        margin-right: 40px;
+        font-size: 16px;
+    }
+
+    #header_m .search {
+        float: right;
+        margin-right: 270px;
+    }
+
+    /* 캐치프레이즈 */
+    #header_b {
+        margin: 178px 0 0 315px;
+    }
+
+    #header_b span {
+        color: black;
+        font-size: 20px;
+    }
+
+    #header_b h4 {
+        color: black;
+        font-size: 34px;
+        margin-top: 20px;
+    }
+
+    /* 카테고리 */
+    #category {
+        width: 100%;
+        height: 250px;
+    }
+
+    #category .btn {
+        margin: 0 auto;
+        padding-top: 60px;
+        box-sizing: border-box;
+        width: 1360px;
+        height: 170px;
+    }
+
+    #category .btn li {
+        float: left;
+        border-radius: 50%;
+        margin-right: 40px;
+    }
+
+    #category .btn li img {
+        margin: 0 auto;
+    }
+
+    #category .btn li img:first-child {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #category .btn li:last-child {
+        margin-right: 0;
+    }
+
+    #category .btn li img {
+        border-radius: 50%;
+    }
+
+    #category .btn li h6 {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    /* 베스트 상품 */
+    #best {
+        width: 100%;
+        height: 570px;
+        margin: 0 auto;
+        background-color: rgb(226, 225, 225);
+    }
+
+    #best .name {
+        width: 200px;
+        height: 570px;
+        margin-left: 315px;
+        padding-top: 65px;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    #best .name li h4 {
+        font-size: 35px;
+    }
+
+    /* 제품 */
+    #best .product {
+        float: left;
+        margin-left: 50px;
+        padding-top: 70px;
+        box-sizing: border-box;
+        width: 1055px;
+        height: 570px;
+    }
+
+    #best .product .prod li {
+        float: left;
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+
+    #best .product .prod li:last-child {
+        margin-right: 0;
+    }
+
+    #best .product .prod li h5 {
+        font-size: 20px;
+    }
+
+    #best .product .prod li p {
+        font-size: 13px;
+        color: rgb(143, 143, 143);
+        text-decoration: line-through;
+    }
+
+    #best .product .prod li span {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #best .product .prod li .span2 {
+        color: rgb(0, 204, 204);
+    }
+
+    /* 기획전 */
+    #plan {
+        width: 100%;
+        height: 740px;
+    }
+
+    #plan h4 {
+        font-size: 38px;
+        text-align: center;
+        padding-top: 125px;
+        box-sizing: border-box;
+    }
+
+    #plan ul {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    /* 타임세일 */
+    #sale {
+        width: 100%;
+        height: 670px;
+    }
+
+    #sale h4 {
+        font-size: 38px;
+        text-align: center;
+        padding-top: 125px;
+        box-sizing: border-box;
+    }
+
+    #sale .sale_img li {
+        float: left;
+        margin: 0 auto;
+        margin-top: 35px;
+        margin-right: 75px;
+    }
+
+    #sale .sale_img li:first-child {
+        margin-left: 245px;
+    }
+
+    #sale .sale_img li:last-child {
+        margin-right: 0;
+    }
+
+    #sale .sale_img li p {
+        width: 300px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        background-color: #ccc;
+    }
+
+    #sale .sale_img li h5 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    /* 신상품 */
+    #new {
+        margin: 0 auto;
+        width: 1600px;
+        height: 1300px;
+    }
+
+    #new .ttl {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 50px;
+        padding-top: 200px;
+        box-sizing: border-box;
+    }
+
+    #new .line {
+        margin-left: 50px;
+    }
+
+    /* 1번줄 */
+    #new .line1 {
+        width: 1000px;
+        height: 515px;
+        margin: 0 auto;
+    }
+
+    #new .line1 ul {
+        float: left;
+        padding-top: 40px;
+        box-sizing: border-box;
+        height: 515px;
+    }
+
+    #new .line1 li {
+        float: left;
+        margin-right: 30px;
+        width: 300px;
+        height: 400px;
+    }
+
+    #new .line1 li:last-child {
+        margin-right: 0;
+    }
+
+
+    /* 2번 줄 */
+    #new .line2 {
+        width: 1000px;
+        height: 515px;
+        margin: 0 auto;
+    }
+
+    #new .line2 ul {
+        float: left;
+        padding-top: 40px;
+        box-sizing: border-box;
+        height: 515px;
+    }
+
+    #new .line2 li {
+        float: left;
+        overflow: hidden;
+        margin-right: 25px;
+        width: 300px;
+        height: 400px;
+    }
+
+    #new .line2 li:last-child {
+        margin-right: 0;
+    }
+
+    #new h4 {
+        font-size: 18px;
+    }
+
+    #new p {
+        text-decoration: line-through;
+    }
+
+    #new span {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #new .span2 {
+        color: rgb(0, 190, 190);
+    }
+
+    /* 아래배너 */
+    #under_ban {
+        width: 100%;
+        height: 350px;
+    }
+
+    #under_ban .under_img {
+        margin: 0 auto;
+        overflow: hidden;
+        width: 1270px;
+        height: 320px;
+        background: url(../images/new_under/bnr_1280_300px.jpg) no-repeat 50% 0;
+    }
+
+    /* 공지사항 */
+    #notice {
+        width: 100%;
+        height: 90px;
+        border-top: 1px solid #ccc;
+    }
+
+    #notice .not {
+        margin: 0 auto;
+        line-height: 90px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        width: 1300px;
+        height: 90px;
+    }
+
+    #notice .not_l {
+        float: left;
+        margin-right: 30px;
+    }
+
+    #notice .not_l h5 {
+        font-size: 20px;
+    }
+
+    #notice .not_r {
+        float: left;
+        font-size: 20px;
+    }
+
+    #notice .span1 {
+        margin-right: 10px;
+    }
+
+    #notice .span2 {
+        font-weight: 200;
+    }
+
+    /* 하단 */
+    #footer {
+        width: 100%;
+        height: 495px;
+        background-color: rgb(0, 184, 184);
+    }
+
+    #footer_h {
+        margin: 0 auto;
+        width: 1280px;
+        height: 365px;
+    }
+
+    /* 왼쪽 */
+    #footer_l {
+        float: left;
+        width: 760px;
+        height: 365px;
+    }
+
+    /* 로고 */
+    #footer_l .logo {
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    /* 1번줄 */
+    #footer_l .one {
+        width: 760px;
+        height: 20px;
+    }
+
+    #footer_l .one ul li {
+        float: left;
+        padding: 0 10px 0 10px;
+        border-right: 1px solid white;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    #footer_l .one ul li:last-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    #footer_l .one ul li a {
+        color: white;
+    }
+
+    /* 2번줄 */
+    #footer_l .two {
+        width: 760px;
+        height: 20px;
+        margin-top: 20px;
+    }
+
+    #footer_l .two ul li {
+        float: left;
+        padding: 0 10px 0 10px;
+        border-right: 1px solid white;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    #footer_l .two ul li:last-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    #footer_l .two ul li a {
+        color: white;
+    }
+
+    /* 3번줄 */
+    #footer_l .thr {
+        width: 760px;
+        height: 20px;
+        margin-top: 5px;
+    }
+
+    #footer_l .thr ul li {
+        float: left;
+        padding: 0 10px 0 10px;
+        border-right: 1px solid white;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    #footer_l .thr ul li:last-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    #footer_l .thr ul li a {
+        color: white;
+    }
+
+    /* 4번줄 */
+    #footer_l .four {
+        width: 760px;
+        height: 20px;
+        margin-top: 5px;
+    }
+
+    #footer_l .four ul li {
+        float: left;
+        padding: 0 10px 0 10px;
+        border-right: 1px solid white;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    #footer_l .four ul li:last-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    #footer_l .four ul li a {
+        color: white;
+    }
+
+    /* 5번줄 */
+    #footer_l .five {
+        width: 760px;
+        height: 20px;
+        margin-top: 20px;
+    }
+
+    #footer_l .five ul li {
+        float: left;
+        padding: 0 10px 0 10px;
+        border-right: 1px solid white;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    #footer_l .five ul li:last-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    #footer_l .five ul li a {
+        color: white;
+    }
+
+    /* 6번줄 */
+    #footer_l .six {
+        width: 760px;
+        height: 20px;
+        margin-top: 5px;
+    }
+
+    #footer_l .six ul li {
+        float: left;
+        padding: 0 10px 0 10px;
+        border-right: 1px solid white;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    #footer_l .six ul li:last-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    #footer_l .six ul li a {
+        color: white;
+    }
+
+    /* 가운데 */
+    #footer_r {
+        float: right;
+        width: 480px;
+        height: 365px;
+    }
+
+    #footer_r .center {
+        float: left;
+        width: 230px;
+        height: 365px;
+        color: white;
+    }
+
+    #footer_r .center h6 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    #footer_r .center h5 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    #footer_r .center p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #footer_r .center div {
+        width: 154px;
+        height: 40px;
+        margin-top: 20px;
+        line-height: 40px;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+    }
+
+    /* 우측 */
+    #footer_r .comu {
+        float: left;
+        width: 250px;
+        height: 365px;
+    }
+
+    /* 우측 좌 */
+    #footer_r .comu_l {
+        float: left;
+        width: 100px;
+        height: 365px;
+        color: white;
+    }
+
+    #footer_r .comu_l h6 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #footer_r .comu_l p {
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #footer_r .comu_l p:last-child {
+        margin-bottom: 0;
+    }
+
+    /* 우측 우 */
+    #footer_r .comu_r {
+        float: left;
+        width: 125px;
+        height: 365px;
+    }
+
+    #footer_r .comu_r p {
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+    }
+
+    #footer_r .comu_r p:first-child {
+        margin-top: 85px;
+    }
+
+    #footer_r .comu_r p:last-child {
+        margin-bottom: 0;
+    }
+
+    /* 마지막 */
+    #footer_b {
+        width: 100%;
+        height: 130px;
+    }
+
+    #footer_b .last {
+        margin: 0 auto;
+        width: 1280px;
+        height: 100px;
+        border-top: 1px solid white;
+        padding-top: 24px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    #footer_b .last p {
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    #footer_b .last p:last-child {
+        margin-bottom: 0;
+    }
